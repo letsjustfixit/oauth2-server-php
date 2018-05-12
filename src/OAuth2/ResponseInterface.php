@@ -21,9 +21,9 @@ interface ResponseInterface
     public function addHttpHeaders(array $httpHeaders);
 
     /**
-     * @param int $statusCode
+     * @param \Symfony\Component\HttpFoundation\int $statusCode
      */
-    public function setStatusCode($statusCode);
+    public function setStatusCode(\Symfony\Component\HttpFoundation\int $statusCode);
 
     /**
      * @param int    $statusCode
